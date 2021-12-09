@@ -1,0 +1,53 @@
+*{
+    margin : 0;
+    padding :0;
+  }
+  
+  body{
+    text-align :center;
+    background-color :rgba(202,0,0,0.3);
+  }
+  
+  h1{
+    font-size:100px;
+    font-family :arial;
+    padding-bottom :50px;
+  }
+  
+  #container{
+    border :none;
+    border-radius :10px;
+    width :600px;
+    padding :20px;
+    margin :auto;
+    background-color :#fff;
+  }
+  
+  label, input{
+    font-family :arial;
+    font-size :20px;
+  }
+  
+  input{
+    border :2px solid black;
+   border-radius :10px;
+  }
+  
+  button{
+    font-size :30px;
+    padding :20px;
+    border :none;
+    background-color :#fff;
+  }
+  
+  #calculate:hover{
+    color :rgba(0,200,0,0.8);
+  }
+  
+  #clear:hover{
+    color :rgba(200,0,0,0.8)
+  }
+  
+  #icon, #icon2{
+    font-size :20px;
+  }
